@@ -21,7 +21,8 @@
   "author": "O2Team",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "devDependencies": {
     "jest": "^29.3.1",

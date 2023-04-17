@@ -73,3 +73,6 @@ common/autoinstallers/*/.npmrc
 
 # Heft
 .heft
+
+# test coverage
+packages/*/.coverage

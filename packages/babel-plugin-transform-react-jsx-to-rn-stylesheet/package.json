@@ -12,7 +12,8 @@
     "test": "jest",
     "test:ci": "jest --ci --silent --coverage false",
     "dev": "tsc -w",
-    "build": "tsc"
+    "build": "tsc",
+    "test:coverage": "jest --coverage"
   },
   "bugs": {
     "url": "https://github.com/NervJS/taro/issues"

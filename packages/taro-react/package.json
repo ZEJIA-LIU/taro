@@ -18,7 +18,8 @@
     "test": "jest --collectCoverage",
     "test:ci": "jest --ci -i --coverage false",
     "build": "rollup -c",
-    "dev": "rollup -c -w"
+    "dev": "rollup -c -w",
+    "test:coverage": "jest --coverage"
   },
   "bugs": {
     "url": "https://github.com/NervJS/taro/issues"

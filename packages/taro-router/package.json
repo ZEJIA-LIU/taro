@@ -16,7 +16,8 @@
     "build": "rimraf ./dist && tsc && rollup -c",
     "dev": "tsc -w",
     "test": "jest",
-    "test:dev": "jest --watch"
+    "test:dev": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",

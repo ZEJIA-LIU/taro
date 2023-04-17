@@ -9,6 +9,7 @@
     "dev": "tsc -w",
     "test": "jest",
     "test:ci": "jest --ci --silent --coverage false",
+    "test:coverage": "jest --coverage",
     "lint": "eslint ."
   },
   "author": "yechunxi",

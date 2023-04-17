@@ -8,7 +8,7 @@ module.exports = {
   setupFilesAfterEnv: ['./src/__tests__/setup/index.ts'],
   testEnvironment: 'node',
   testEnvironmentOptions: {},
-  testMatch: ['**/__tests__/?(*.)+(spec|test).[jt]s?(x)'],
+  testMatch: ['**/__tests__/*/?(*.)+(spec|test).[jt]s?(x)'],
   testTimeout: 120000,
   transform: {
     '^.+\\.(css|sass|scss|less|styl|stylus|pcss|postcss)$': ['jest-transform-css', {

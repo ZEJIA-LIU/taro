@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/NervJS/taro#readme",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "jest": {
     "testEnvironment": "node",
